@@ -4,11 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { ComponentComponent } from './components/component/component.component';
+import { TodosComponent } from './components/todos/todos.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, ComponentComponent ],
+  declarations: [ AppComponent, HelloComponent, TodosComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
